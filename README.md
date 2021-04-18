@@ -10,6 +10,9 @@ This is an REST API of a Huge Hadith collection of different hadith books contai
 * **URL**
 
   **``http://alquranbd.com/api/hadith``**
+  
+  ***Example:*** <br/>
+  ``http://alquranbd.com/api/hadith``
 
 * **Method:**
   `GET`
@@ -20,18 +23,8 @@ This is an REST API of a Huge Hadith collection of different hadith books contai
 * **Response Example:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
+  *  **Content:** `{ id : 12, name : "Michael Bloom" }`
  
-* **Error Response:**
-
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
 * **Sample Call:**
 
   ```javascript

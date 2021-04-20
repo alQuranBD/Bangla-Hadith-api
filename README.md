@@ -3,6 +3,24 @@
 This is an REST API of a Huge Hadith collection of different hadith books contains Hadiths in Arabic, Bangla and English
 
 
+# The API at a glance
+
+ **ROOT URI : ``http://alquranbd.com/api/``**
+
+
+| URI                                            | Parameters                                                                 | Response                                       | Example Call                                     |
+|------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------|--------------------------------------------------|
+| ROOT/hadith                                    | none                                                                       | JSON List of the Hadith books                  | http://alquranbd.com/api/hadith                  |
+| ROOT/hadith/:book_key                          | `book_key` : String (Check the values in "Chapters list of a book" table)  | JSON Chapters list of a book                   | https://alquranbd.com/api/hadith/bukhari         |
+| ROOT/hadith/:book_key/:chapter_no              | `book_key` : String <br/> `chapter_no` : Integer                           | JSON list of all Hadiths from a Chapter        | https://alquranbd.com/api/hadith/bukhari/1       |
+| ROOT/api/hadith/:book_key/:chapter_no/:page_no | `book_key` : String <br/> `chapter_no` : Integer <br/> `page_no` : Integer | JSON Hadiths from a Chapter devided into Pages | https://alquranbd.com/api/hadith/bukhari/2/2     |
+| ROOT/hadith/:book_key/:chapter_no/pages        | `book_key` : String <br/> `chapter_no` : Integer                           | JSON Page Numbers from a Chapter               | https://alquranbd.com/api/hadith/bukhari/2/pages |
+
+
+
+# Details
+
+
 **List of the Hadith books**
 ----
   Returns json data of all Hadith Books.

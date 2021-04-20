@@ -23,17 +23,34 @@ This is an REST API of a Huge Hadith collection of different hadith books contai
 * **Response Example:**
 
   * **Code:** 200 <br />
-  *  **Content:** `{ id : 12, name : "Michael Bloom" }`
- 
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/users/1",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
+  *  **Content:** 
+      ```
+      [
+        {
+          "id": "1",
+          "nameEnglish": "Sahih Bukhari (IFA)",
+          "nameBengali": "সহীহ বুখারী (ইফাঃ)",
+          "lastUpdate": "2015-02-21",
+          "isActive": "1",
+          "priority": "2",
+          "publisherId": "1",
+          "section_number": "86",
+          "hadith_number": "7053",
+          "book_key": "bukhari"
+        },
+        {
+          "id": "2",
+          "nameEnglish": "Sahih Muslim (IFA)",
+          "nameBengali": "সহীহ মুসলিম (ইফাঃ)",
+          "lastUpdate": "2015-02-21",
+          "isActive": "1",
+          "priority": "3",
+          "publisherId": "1",
+          "section_number": "57",
+          "hadith_number": "7283",
+          "book_key": "muslim"
+        },
+        ...
+        ...
+        ...
+      ```

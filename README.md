@@ -229,7 +229,7 @@ This is an REST API of a huge Hadith collection of different hadith books contai
 **Get Hadiths from a Chapter in Pages**
 ----
   Returns json data of Hadiths devided into pages of a chapter from a Hadith Book.
-  Each pages contains 20 Hadiths.
+  Each page contains 20 Hadiths.
 
 * **URL**
 
@@ -306,7 +306,7 @@ This is an REST API of a huge Hadith collection of different hadith books contai
 ----
   Returns json data of Page Numbers of a chapter from a Hadith Book.
   We need the numbers of pages to show the Pagination List or Link. This api gives you the page numbers.
-  Note: Each pages contains 20 Hadiths.
+  Note: Each page contains 20 Hadiths.
 
 * **URL**
 

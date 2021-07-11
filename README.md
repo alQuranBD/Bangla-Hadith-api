@@ -2,7 +2,7 @@
 
 This is an REST API of a huge Hadith collection of different hadith books contain Hadiths in Arabic, Bangla and English
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=niamulhasan&label=Profile%20views&color=0e75b6&style=flat" alt="niamulhasan" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=alQuranBD&label=Views&color=0e75b6&style=flat" alt="niamulhasan" /> </p>
 
 
 # The API at a glance
